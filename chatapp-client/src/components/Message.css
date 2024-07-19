@@ -1,0 +1,29 @@
+.message {
+    margin-bottom: 10px;
+}
+
+.message .message-content {
+    max-width: 60%;
+    padding: 10px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.message.me .message-content {
+    background-color: #007bff;
+    color: white;
+    margin-left: auto;
+}
+
+.message.other .message-content {
+    background-color: #f1f1f1;
+    color: black;
+    margin-right: auto;
+}
+
+.message .message-time {
+    display: block;
+    text-align: right;
+    font-size: 0.85em;
+    margin-top: 5px;
+}

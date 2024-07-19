@@ -1,0 +1,21 @@
+.room-header {
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+}
+
+.room-header h2 {
+    margin: 0;
+}
+
+.room-actions button {
+    background: none;
+    border: none;
+    color: #007bff;
+    cursor: pointer;
+}
+
+.room-actions button:hover {
+    text-decoration: underline;
+}

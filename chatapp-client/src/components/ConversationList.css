@@ -1,0 +1,24 @@
+.conversation-list {
+    padding: 10px;
+}
+
+.conversation {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.conversation-name {
+    font-weight: bold;
+}
+
+.conversation-last-message {
+    color: #555;
+}
+
+.conversation-last-time {
+    color: #888;
+    font-size: 12px;
+}
